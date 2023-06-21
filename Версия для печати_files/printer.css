@@ -1,0 +1,769 @@
+﻿/*******************************************
+	Reset
+*******************************************/
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1em;
+    outline: none;
+}
+
+html
+{
+    overflow-y: scroll;
+}
+
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex
+{
+    font: inherit;
+    font-size: 1em;
+}
+
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet
+{
+    border: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body
+{
+    line-height: 1;
+    background: white;
+    color: black;
+}
+
+q
+{
+    quotes: "" "";
+}
+
+ul, ol, dir, nav_list
+{
+    list-style: none;
+}
+
+sub, sup
+{
+    vertical-align: baseline;
+}
+
+a
+{
+    color: inherit;
+}
+
+font
+{
+    color: inherit !important;
+    font: inherit !important;
+    color: inherit !important;
+}
+
+/*******************************************
+	Styles
+*******************************************/
+html
+{
+    font: 62.5% arial,helvetica,sans-serif;
+}
+
+body
+{
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+table
+{
+    width: 100%;
+}
+
+caption
+{
+    font-weight: bold;
+    padding: .5em;
+}
+
+td
+{
+    border: solid 1px #999;
+    padding: 0.4em;
+}
+
+.td50
+{
+    width: 50%;
+}
+
+.pageBreak
+{
+    page-break-after: always;
+}
+
+.outlined
+{
+    border: solid 4px #000;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+    padding: 0.2em;
+    height: 60px;
+    direction: ltr;
+}
+
+    .outlined img
+    {
+        margin-right: .5em;
+        vertical-align: middle;
+    }
+
+.inverse
+{
+    background-color: #000;
+    color: #fff;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.l
+{
+    float: left;
+}
+
+.r
+{
+    float: right;
+}
+
+.tac
+{
+    text-align: center;
+}
+
+.tar
+{
+    text-align: right;
+}
+
+h2
+{
+    font-size: 2.5em;
+}
+
+h3
+{
+    font-size: 2.0em;
+}
+
+h4
+{
+    font-size: 1.6em;
+}
+
+.h4_print_progrStud {
+    font-size: 1.1em;    
+}
+
+h5
+{
+    font-size: 1.4em;
+}
+
+.h5_print_progrStud {
+    font-size: 1em;
+}
+
+h6
+{
+    font-size: 1.0em;
+}
+
+.mark
+{
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+.space
+{
+    height: 2em;
+}
+
+p
+{
+    margin: 0.5em 0;
+}
+
+ul.bullets
+{
+    clear: both;
+}
+
+    ul.bullets li
+    {
+        margin: 0.8em 0;
+        list-style: disc;
+        margin-left: 26px;
+    }
+
+ol
+{
+    clear: both;
+}
+
+    ol li
+    {
+        margin: 0.8em 0;
+        margin-left: 26px;
+        list-style-type: decimal;
+        font-weight: bold;
+    }
+
+        ol li p
+        {
+            font-weight: normal;
+        }
+
+table th
+{
+    font-weight: normal;
+    border: 1px solid #999999;
+}
+/*******************************************
+	Styles
+*******************************************/
+.print_header
+{
+    line-height: 12px;
+    font-size: 10pt;
+    width: 525pt;
+    margin-bottom: 5pt;
+}
+
+.print_jp
+{
+    margin: 5px 0 20px 0;
+    width: auto;
+    font-size: 10pt;
+}
+
+    .print_jp th
+    {
+        font-weight: normal;
+        border: 1px solid #999999;
+    }
+
+    .print_jp th, .print_jp td
+    {
+        height: 21pt;
+    }
+
+    .print_jp td
+    {
+        text-align: center;
+    }
+
+        .print_jp td.title
+        {
+            text-align: left;
+            width: 265pt;
+        }
+
+        .print_jp td.numberH
+        {
+            width: 14pt;
+            padding: 0pt;
+        }
+
+        .print_jp td.monthH
+        {
+            padding: 0px;
+            height: 6pt;
+        }
+
+        .print_jp td.head2
+        {
+            height: 10pt;
+            min-width: 112pt;
+            padding: 0 0 0 2pt;
+        }
+
+        .print_jp td.daysH
+        {
+            text-align: right;
+            border-bottom: 0pt none;
+        }
+
+        .print_jp td.fullname
+        {
+            text-align: left;
+            border-top: 0pt none;
+        }
+
+        .print_jp td.days
+        {
+            width: 14pt;
+            padding: 0pt;
+        }
+
+        .print_jp td.cell
+        {
+            padding: 0pt;
+            height: 14pt;
+        }
+
+        .print_jp td.finalmarkH
+        {
+            padding: 0pt;
+            width: 14pt;
+        }
+
+    .print_jp #verttext
+    {
+        padding: 2pt;
+        width: 1em;
+        line-height: 1em;
+        font-size: 10pt;
+    }
+
+    .print_jp td.finalmark
+    {
+        font-size: 10pt;
+    }
+
+    .print_jp td.nameStud
+    {
+        height: 14pt;
+        text-align: left;
+        padding: 0pt 0pt 0pt 3pt;
+        font-size: 10pt;
+    }
+
+    .print_jp div.present
+    {
+        position: relative;
+        float: left;
+        font-size: 5pt;
+        top: 0;
+        left: 0;
+        padding-left: 1px;
+        line-height: 7pt;
+    }
+
+    .print_jp div.bh
+    {
+        float: right;
+        padding-right: 2px;
+    }
+
+    .print_jp tr
+    {
+        max-height: 14pt;
+    }
+
+
+.print_cell {
+    width: 41pt;
+    font-size: 9pt;
+}
+
+.print_border_bottom {
+    border-bottom: 2px solid #000;
+}
+
+.print_footer
+{
+    width: 690px;
+    display: inline-block;
+}
+
+    .print_footer .date
+    {
+        float: left;
+    }
+
+    .print_footer .sign
+    {
+        float: right;
+    }
+
+.print_A4
+{
+    width: 690px;
+}
+
+    .print_A4 td
+    {
+        text-align: left;
+    }
+
+    .print_A4_italic td
+    {
+        font-style: italic;
+    }
+
+    .print_A4.noWrap td
+    {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .print_A4 td.tar
+    {
+        text-align: right;
+    }
+
+    .print_A4 td.strong
+    {
+        font-weight: bold;
+    }
+
+div.titlePage td
+{
+    text-align: center;
+}
+
+.print_th
+{
+    border: 1px solid #999999;
+}
+
+.print_work_title
+{
+    width: 30px;
+    max-width: 30px;
+    border: 1px solid #999999;
+}
+
+@media screen
+{
+    .page-break
+    {
+        height: 10px;
+        margin-bottom: 13px;
+    }
+}
+
+@media print
+{
+    .page-break
+    {
+        height: 0;
+        page-break-before: always;
+        margin: 0;
+        border-top: none;
+    }
+}
+
+.std_number
+{
+    width: 90px;
+}
+
+.std_node
+{
+    width: 800px;
+}
+
+.std_nodeIndicator
+{
+    width: 400px;
+    color: #0026FF;
+}
+
+.std_desc
+{
+    width: 200px !important;
+    text-align: left !important;
+}
+
+ul.homeworkList
+{
+    padding-left: 25px;
+    text-align: left;
+    list-style-position: outside;
+    list-style-type: disc;
+}
+
+    ul.homeworkList li
+    {
+        margin-bottom: 10px;
+    }
+
+.print_certificate
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_print_progrStud {
+    table-layout: fixed;
+    font-size: 0.66em;
+    word-wrap: break-word;
+    width: 740px;
+}
+
+.table_print_progrStud_fullYear {
+    table-layout: fixed;
+    font-size: 0.6em;
+    word-wrap: break-word;
+    width: 740px;
+}
+
+table.npoRegisterA4
+{
+    table-layout: fixed;
+    width: 690px;
+}
+
+table.timeBudget
+{
+    width: 1200px;
+}
+
+    table.timeBudget th
+    {
+        padding: 3px;
+    }
+
+    table.timeBudget tr th:first-child
+    {
+        width: 100px;
+    }
+
+table.studyPlan
+{
+    table-layout: fixed;
+    width: 1000px;
+}
+
+.studyPlan th
+{
+    vertical-align: middle;
+    font-size: 100%;
+    word-wrap: break-word;
+}
+
+.studyPlan td
+{
+    vertical-align: middle;
+    height: auto;
+    word-wrap: break-word;
+}
+
+    .studyPlan td.center
+    {
+        text-align: center;
+    }
+
+    .studyPlan td.disabled
+    {
+        font-weight: bold;
+        color: black;
+        text-align: right;
+    }
+
+table.studyPlan .vertical
+{
+    white-space: nowrap;
+    -moz-transform: rotate(270deg) translate(-20px,0);
+    -o-transform: rotate(270deg) translate(-20px,0);
+    -webkit-transform: rotate(270deg) translate(-20px,0);
+    transform: rotate(270deg) translate(-35px,0);
+}
+
+.breakword
+{
+    white-space: pre; /* CSS 2.0 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3.0 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP Printers */
+    word-wrap: break-word; /* IE 5+ */
+}
+
+/* разрыв страницы */
+.page-break
+{
+    page-break-after: always;
+}
+
+.grid th
+{
+    background-color: transparent;
+}
+
+.rotated-td {
+    min-width: 26px;
+    text-align: center !important;
+    line-height: 25px;
+    overflow: hidden;
+    height: 150px !important
+}
+
+.rotated-word
+{
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 15px;
+    position: relative;
+    bottom: -60px;
+    width: 10px;
+    max-height: 30px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+@media print
+{
+    /*
+    Fix for stupid IE, don't touch it!
+    https://connect.microsoft.com/IE/feedback/details/771188/tables-printing-problem-in-ie10
+    */
+    @page
+    {
+        margin: 0cm;
+        
+    }
+    
+    table {
+        border-collapse: collapse !important; /* Отображать только одинарные линии */
+    }
+
+
+    table, th, td {
+        border: 1px solid black; /* Граница вокруг ячеек */
+    }
+    .grid th {
+        color: #000000;
+        outline-color: #000000;
+        border-color: #000000;
+    }
+
+    #journal td.monthH {
+        height: 30px;
+    }
+
+    #journal td.head2.daysH {
+        height: 20px;
+    }
+
+    #journal td.head2.fullname {
+        height: 20px;
+    }
+}
+.nobold {
+    font-weight: normal;
+}
+td.notop, th.notop {
+    border:none;
+    /*width: 5px;*/
+    padding:0;
+    margin: 0;
+}
+td.thinc, th.thinc {
+    height:10px;
+    padding:0;
+    margin: 0;
+}
+td.rborder, th.rborder {
+    border-right: solid 1px #999;
+}
+td.bbord, th.bbord {
+    border-bottom: solid 1px #999;
+}
+
+.td_print_progrStud {
+    font-size: 1em;
+}
+
+.td_align_print_progrStud {
+    text-align: center;
+}
+
+.th_print_progrStud {
+    font-size: 1em;
+}
+
+.th_align_print_progrStud {
+    text-align: center;
+}
+
+.table_print_issuedEduDoc {
+    table-layout: fixed;
+    font-size: 0.66em;
+    word-wrap: break-word;
+    width: 740px;
+}
+
+.td_align_print_issuedEduDoc {
+    text-align: center;
+}
+
+.tr_print_issuedEduDoc {
+    height: 50px;
+    text-align: center;
+}
+
+.table_print_studentsProgress_tableRegistry {
+    table-layout: fixed;
+    font-size: 0.66em;
+    word-wrap: break-word;
+    width: 740px;
+    border-left: none;
+}
+
+.tr_print_studentsProgress_tableRegistry_header {
+    height: 45px;
+}
+
+.tr_print_studentsProgress_tableRegistry_subheader {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.tr_print_studentsProgress_tableRegistry {
+    text-align: center;
+    height: 25px;
+}
+
+.td_print_studentsProgress_tableRegistry_text-align_left {
+    text-align: left;
+}
+
+.tr_print_studentsProgress_tableRegistry_border-bottom-bold {
+    border-bottom: 2px solid black;
+}
+
+.td_print_studentsProgress_tableRegistry_border-solid-bold {
+    border: 2px solid black;
+    border-left: none;
+}
+
+.td_print_studentsProgress_tableRegistry_border-solid {
+    border: 1px solid black;
+    border-right: 2px solid;
+    border-left: none;
+}
+
+.td_lessonPlanning_date {
+    font-size: 9pt;
+}
+
+.italic-text {
+    font-style: italic;
+}

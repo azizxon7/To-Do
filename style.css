@@ -1,0 +1,7 @@
+.image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-image: url('Khan_Academy_Logo.jpg'); 
+    background-size: cover;
+}

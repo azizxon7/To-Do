@@ -1,13 +1,11 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
-from aiogram.types import BotCommand, BotCommandScopeDefault, ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import BotCommand, BotCommandScopeDefault, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 import wikipedia as w
 API_TOKEN = '5512523054:AAH6zBPIZyciqDxheJp0PcYDGR2bssWtlh0'
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
-
-
 @dp.message_handler(commands=['start'])
 async def send_start(message: types.Message):
     btn1=InlineKeyboardButton('🇺🇿 O\'zbek tili', callback_data='uz')
@@ -21,7 +19,6 @@ async def send_start(message: types.Message):
             BotCommand("start", 'Botni qayta ishga tushuring'),
             BotCommand("set_language", 'Tilni o\'zgartirish')
     ], scope=BotCommandScopeDefault)
-
 @dp.message_handler(commands=['set_language'])
 async def send_start(message: types.Message):
     btn1=InlineKeyboardButton('🇺🇿 O\'zbek tili', callback_data='uz')
@@ -50,6 +47,5 @@ async def wiki(message: types.Message):
     except:
         res=w.search(message.text)
         await bot.send_message(message.chat.id, f"Ehtimol, siz bulardan birini qidirgandirsiz:\nВы, вероятно, искали один из них:\nMaybe you were looking for one of these\n\n{res}")
-
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp, skip_updates=True) 

@@ -1,0 +1,43 @@
+.str
+{
+    color: darkblue
+} 
+.bir
+{
+ text-align: center;
+}
+.os
+{
+    color: chocolate;
+}
+.bar
+{
+    margin-right: 830px;
+    background-color: yellow;
+}
+.pre
+{
+    color: green;
+}
+.image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-image: url('Khan_Academy_Logo.jpg'); 
+    background-size: cover;
+    margin-left: 550px;
+}
+.bur
+{
+    background-color: yellow;
+    margin-right: 708px;
+    color: red;
+}
+.bara
+{
+    margin-left: 750px;
+}
+.ohiri
+{
+    text-align: center;
+}
