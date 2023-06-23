@@ -4,6 +4,10 @@ from aiogram import Bot, Dispatcher, executor, types
 
 api = '5512523054:AAH6zBPIZyciqDxheJp0PcYDGR2bssWtlh0'
 
+
+
+# change code
+
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=api)
