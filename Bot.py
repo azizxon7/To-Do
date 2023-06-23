@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, executor, types
 
 api = '5512523054:AAH6zBPIZyciqDxheJp0PcYDGR2bssWtlh0'
 
-
+#o'zgartirdim
 
 # change code
 
